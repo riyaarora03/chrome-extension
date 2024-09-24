@@ -1,0 +1,64 @@
+/* AnnouncementWidget.css */
+.announcement-widget {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #867575;
+    margin-top: 40px;
+  }
+  
+  .announcement-scroller {
+    overflow: hidden;
+    white-space: nowrap;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+  
+  .announcement-text {
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .announcement-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .announcement-form input {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color:black;
+    margin-right: 5px;
+  }
+  
+  .announcement-form button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    width:20%
+  }
+  
+  .announcement-form button:hover {
+    background-color: #0056b3;
+  }
+  
