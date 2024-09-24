@@ -1,8 +1,31 @@
-A simple Hello World Chrome extension using React. 
+# Chrome-Extension (HYPERVERGE HACKATHON 2024)
 
-# Getting Started with Create React App
+A simple digital notice board implemented as a Chrome extension using Typescript.    
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Widgets Built:
+    Google slide integration   
+    Pomodoro Timer
+    Google Spreadsheet
+    Google Form
+    Music
+    Issue Tracker
+    Daily Growth Checklist
+    Announcements : Scrolling Text
+    Steps / Health Tracker
+    Today I Learnt (TIL) Corner
+    Google Calendar
+    Google Meet
+    Google Keep
+    Chatbot
+    
+    
+    
+
+
+
+
+
+
 
 ## Available Scripts
 
@@ -14,8 +37,4 @@ bundle the extension.
 ### `npm run watch`
 bundle the extension with interactive watch mode.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
